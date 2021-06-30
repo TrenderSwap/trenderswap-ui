@@ -55,18 +55,18 @@ export default function App() {
 
   const stringTranslationsApi = new StringTranslations(credentials)
 
-  const [hasSeenModal, setHasSeenModal] = useState(false)
-  const [onPresentUseV2ExchangeModal] = useModal(<UseV2ExchangeModal />)
+  // const [hasSeenModal, setHasSeenModal] = useState(false)
+  // const [onPresentUseV2ExchangeModal] = useModal(<UseV2ExchangeModal />)
 
-  useEffect(() => {
-    const showModal = () => {
-      onPresentUseV2ExchangeModal()
-      setHasSeenModal(true)
-    }
-    if (!hasSeenModal) {
-      showModal()
-    }
-  }, [onPresentUseV2ExchangeModal, hasSeenModal])
+  // useEffect(() => {
+  //   const showModal = () => {
+  //     onPresentUseV2ExchangeModal()
+  //     setHasSeenModal(true)
+  //   }
+  //   if (!hasSeenModal) {
+  //     showModal()
+  //   }
+  // }, [onPresentUseV2ExchangeModal, hasSeenModal])
 
   const getStoredLang = (storedLangCode: string) => {
     return allLanguages.filter((language) => {
