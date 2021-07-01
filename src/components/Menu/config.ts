@@ -87,7 +87,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://pancakeswap.info',
+        href: 'https://trenderswap.info',
       },
       {
         label: 'Tokens',
