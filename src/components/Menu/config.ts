@@ -7,6 +7,18 @@ const config: MenuEntry[] = [
     href: 'https://trenderswap-front-end.vercel.app/',
   },
   {
+        label: 'LP Migration',
+        href: '/migrate',
+      },
+      {
+        label: 'Exchange',
+        href: 'https://exchange.pancakeswap.finance/#/swap',
+      },
+      {
+        label: 'Liquidity',
+        href: 'https://exchange.pancakeswap.finance/#/pool',
+      },
+  {
     label: 'Trade',
     icon: 'TradeIcon',
     initialOpenState: true,
