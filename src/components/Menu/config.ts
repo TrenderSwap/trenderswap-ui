@@ -13,7 +13,6 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Liquidity',
-        icon: 'WaterIcon',
         href: 'https://pancake-swap-interface-v1-trenderswap.vercel.app/#/pool',
       },
   {
