@@ -4,13 +4,8 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://trenderswap-front-end.vercel.app/',
+    href: 'https://pancakeswap.finance/',
   },
-   {
-        label: 'Exchange',
-        icon: 'TradeIcon',
-        href: 'https://exchange.pancakeswap.finance/#/swap',
-      },
   {
     label: 'Trade',
     icon: 'TradeIcon',
@@ -31,6 +26,7 @@ const config: MenuEntry[] = [
       {
         label: 'Liquidity',
         href: 'https://exchange.pancakeswap.finance/#/pool',
+
       },
     ],
   },
