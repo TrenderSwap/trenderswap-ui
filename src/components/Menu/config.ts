@@ -40,7 +40,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Tokens',
-        href: 'https://pancakeswap.info/tokens',
+        href: 'https://trenderswap.info/tokens',
       },
       {
         label: 'Pairs',
