@@ -11,10 +11,6 @@ const config: MenuEntry[] = [
         icon: 'TradeIcon',
         href: 'https://exchange.pancakeswap.finance/#/swap',
       },
-      {
-        label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/pool',
-      },
   {
     label: 'Trade',
     icon: 'TradeIcon',
