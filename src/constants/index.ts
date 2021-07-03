@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@boldrack/sdk'
 
 export const ROUTER_ADDRESS = '0xAF066Ce38a7aAEdf6481f5aa5C459221e04a58F1'
 
