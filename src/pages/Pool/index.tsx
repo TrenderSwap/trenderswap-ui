@@ -1,4 +1,5 @@
 import React, { useContext, useMemo } from 'react'
+import { Link } from 'react-router-dom'
 import { ThemeContext } from 'styled-components'
 import { Pair } from '@boldrack/sdk'
 import { Button, CardBody, Text } from '@pancakeswap-libs/uikit'
