@@ -1,4 +1,5 @@
 import React, { useContext, useMemo } from 'react'
+import { Link } from 'react-router-dom'
 import { ThemeContext } from 'styled-components'
 import { Pair } from '@boldrack/sdk'
 import { Button, CardBody, Text } from '@pancakeswap-libs/uikit'
@@ -62,7 +63,7 @@ export default function Pool() {
           title={TranslateString(262, 'Liquidity')}
           description={TranslateString(1168, 'Add liquidity to receive LP tokens')}
         >
-          <Button id="join-pool-button" mb="16px">
+          <Button id="join-pool-button" mb="16px" as={Link} to="/add/BNB">
             {TranslateString(168, "Add Liquidity")}
           </Button>
         </PageHeader>
