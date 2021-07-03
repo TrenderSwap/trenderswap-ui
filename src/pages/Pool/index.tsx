@@ -64,7 +64,6 @@ export default function Pool() {
         >
           <Button id="join-pool-button" mb="16px">
             {TranslateString(168, "Add Liquidity")}
-            {/*{TranslateString(168, "You can't add liquidity on V1")}*/}
           </Button>
         </PageHeader>
         <AutoColumn gap="lg" justify="center">
