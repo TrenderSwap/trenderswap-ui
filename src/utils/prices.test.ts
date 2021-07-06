@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@boldrack/sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@trenderswap/sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

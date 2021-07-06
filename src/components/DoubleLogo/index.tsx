@@ -1,4 +1,4 @@
-import { Currency } from '@boldrack/sdk'
+import { Currency } from '@trenderswap/sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

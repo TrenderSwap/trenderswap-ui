@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from '@boldrack/sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@trenderswap/sdk'
 import { MIN_ETH } from '../constants'
 
 /**

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from '@pancakeswap-libs/uikit'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from '@boldrack/sdk'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from '@trenderswap/sdk'
 import styled from 'styled-components'
 
 import useI18n from 'hooks/useI18n'

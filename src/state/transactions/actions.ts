@@ -1,5 +1,5 @@
 import { createAction } from '@reduxjs/toolkit'
-import { ChainId } from '@boldrack/sdk'
+import { ChainId } from '@trenderswap/sdk'
 
 export interface SerializableTransactionReceipt {
   to: string

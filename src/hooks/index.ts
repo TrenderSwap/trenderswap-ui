@@ -1,5 +1,5 @@
 import { Web3Provider } from '@ethersproject/providers'
-import { ChainId } from '@boldrack/sdk'
+import { ChainId } from '@trenderswap/sdk'
 import { connectorLocalStorageKey } from '@pancakeswap-libs/uikit'
 import { useWeb3React as useWeb3ReactCore } from '@web3-react/core'
 // eslint-disable-next-line import/no-unresolved

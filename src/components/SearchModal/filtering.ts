@@ -1,4 +1,4 @@
-import { Token } from '@boldrack/sdk'
+import { Token } from '@trenderswap/sdk'
 import { isAddress } from '../../utils'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {

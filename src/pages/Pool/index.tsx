@@ -1,7 +1,7 @@
 import React, { useContext, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { ThemeContext } from 'styled-components'
-import { Pair } from '@boldrack/sdk'
+import { Pair } from '@trenderswap/sdk'
 import { Button, CardBody, Text } from '@pancakeswap-libs/uikit'
 import CardNav from 'components/CardNav'
 import Question from 'components/QuestionHelper'
