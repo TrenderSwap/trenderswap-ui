@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from '@boldrack/sdk'
+import { currencyEquals, Trade } from '@trenderswap/sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

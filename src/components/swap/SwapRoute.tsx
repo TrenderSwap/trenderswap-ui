@@ -1,4 +1,4 @@
-import { Trade } from '@boldrack/sdk'
+import { Trade } from '@trenderswap/sdk'
 import React, { Fragment, memo, useContext } from 'react'
 import { ChevronRight } from 'react-feather'
 import { Flex, Text } from '@pancakeswap-libs/uikit'

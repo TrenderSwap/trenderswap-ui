@@ -1,4 +1,4 @@
-import { Percent } from '@boldrack/sdk'
+import { Percent } from '@trenderswap/sdk'
 import React from 'react'
 import { ONE_BIPS } from '../../constants'
 import { warningSeverity } from '../../utils/prices'

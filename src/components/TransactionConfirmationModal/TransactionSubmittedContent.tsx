@@ -1,4 +1,4 @@
-import { ChainId } from '@boldrack/sdk'
+import { ChainId } from '@trenderswap/sdk'
 import React, { useContext } from 'react'
 import { ThemeContext } from 'styled-components'
 import { Button, LinkExternal } from '@pancakeswap-libs/uikit'

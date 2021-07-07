@@ -1,4 +1,4 @@
-import { Token } from '@boldrack/sdk'
+import { Token } from '@trenderswap/sdk'
 import { transparentize } from 'polished'
 import { Button, Text } from '@pancakeswap-libs/uikit'
 import React, { useCallback, useMemo, useState } from 'react'

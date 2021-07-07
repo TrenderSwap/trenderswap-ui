@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@boldrack/sdk'
+import { Token, TokenAmount } from '@trenderswap/sdk'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

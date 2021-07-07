@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@boldrack/sdk'
+import { Currency, ETHER, Token } from '@trenderswap/sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'BNB'
