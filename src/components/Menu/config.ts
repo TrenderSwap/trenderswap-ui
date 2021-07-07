@@ -26,10 +26,7 @@ const config: MenuEntry[] = [
       {
         label: 'Liquidity',
         href: 'https://exchange.pancakeswap.finance/#/pool',
-      },
-      {
-        label: 'V1 Liquidity (Old)',
-        href: '/pool',
+
       },
     ],
   },
