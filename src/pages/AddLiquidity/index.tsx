@@ -117,7 +117,11 @@ export default function AddLiquidity({
   const addTransaction = useTransactionAdder()
 
   async function onAdd() {
-    if (!chainId || !library || !account) return
+    if (!chainId || !library || !account) {
+      console.log('No chainId || library || account', chainId, library, account)
+      return
+    }
+
     const router = getRouterContract(chainId, library, account)
 
     const { [Field.CURRENCY_A]: parsedAmountA, [Field.CURRENCY_B]: parsedAmountB } = parsedAmounts
@@ -148,6 +152,7 @@ export default function AddLiquidity({
         account,
         deadlineFromNow,
       ]
+      console.log('args: ', args)
       value = BigNumber.from((tokenBIsBNB ? parsedAmountB : parsedAmountA).raw.toString())
     } else {
       estimate = router.estimateGas.addLiquidity
@@ -167,6 +172,7 @@ export default function AddLiquidity({
 
     setAttemptingTxn(true)
     // const aa = await estimate(...args, value ? { value } : {})
+    console.log(`Making ${method} call `)
     await estimate(...args, value ? { value } : {})
       .then((estimatedGasLimit) =>
         method(...args, {
